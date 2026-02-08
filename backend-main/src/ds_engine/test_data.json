@@ -1,0 +1,17 @@
+{
+  "orders": [
+    {"id": "1", "totalPrice": 100, "createdAt": "2023-01-01T10:00:00Z", "customerId": "c1"},
+    {"id": "2", "totalPrice": 200, "createdAt": "2023-01-02T10:00:00Z", "customerId": "c1"},
+    {"id": "3", "totalPrice": 150, "createdAt": "2023-02-01T10:00:00Z", "customerId": "c2"},
+    {"id": "4", "totalPrice": 50, "createdAt": "2023-02-02T10:00:00Z", "customerId": "c3"},
+    {"id": "5", "totalPrice": 300, "createdAt": "2023-02-03T10:00:00Z", "customerId": "c3"}
+  ],
+  "customers": [
+    {"id": "c1", "totalSpent": 300, "firstName": "John", "lastName": "Doe"},
+    {"id": "c2", "totalSpent": 150, "firstName": "Jane", "lastName": "Doe"},
+    {"id": "c3", "totalSpent": 350, "firstName": "Bob", "lastName": "Smith"}
+  ],
+  "products": [
+      {"id": "1"}
+  ]
+}

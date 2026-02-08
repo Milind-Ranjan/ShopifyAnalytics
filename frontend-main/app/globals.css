@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #111827; /* gray-900 */
+  background: #ffffff;
+}
+
+/* Ensure all inputs have visible text */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+  color: #111827 !important;
+  background-color: #ffffff !important;
+}
+
+input::placeholder {
+  color: #9ca3af !important; /* gray-400 */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #c7c7c7;
+    border-radius: 10px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
