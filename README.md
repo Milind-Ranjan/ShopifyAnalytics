@@ -3,8 +3,10 @@
 A powerful, multi-tenant analytics platform designed to ingest, process, and visualize Shopify store data. This application combines a robust Node.js backend, a modern Next.js frontend, and a specialized Python Data Science engine to provide predictive analytics, customer segmentation, and sales forecasting.
 
 ## 🎥 Demo Video
-
-[Watch the Demo Video](https://raw.githubusercontent.com/Milind-Ranjan/ShopifyAnalytics/demo.mov)
+<video src="https://raw.githubusercontent.com/Milind-Ranjan/ShopifyAnalytics/main/demo.mov"
+       controls
+       width="100%">
+</video>
 
 ## 🚀 Key Features
 
